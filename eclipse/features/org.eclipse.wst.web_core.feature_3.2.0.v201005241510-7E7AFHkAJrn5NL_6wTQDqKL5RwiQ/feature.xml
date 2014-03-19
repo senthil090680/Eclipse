@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.web_core.feature"
+      label="%featureName"
+      version="3.2.0.v201005241510-7E7AFHkAJrn5NL_6wTQDqKL5RwiQ"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+
+   <includes
+         id="org.eclipse.wst.jsdt.feature"
+         version="1.2.0.v201005270528-7C78FGDF9JgLWLMBWz-Ose6"/>
+
+   <includes
+         id="org.eclipse.wst.common_core.feature"
+         version="3.2.0.v201005241600-7B7DFEdF7RZHOZIvUqM4NJ"/>
+
+   <includes
+         id="org.eclipse.wst.xml_core.feature"
+         version="3.2.0.v201005241510-7C7OFXTF7RZHQHHxO4IuKe"/>
+
+   <includes
+         id="org.eclipse.wst.server_core.feature"
+         version="3.2.0.v201005241510-30F8T8s734C3E4K"/>
+
+
+   <plugin
+         id="org.eclipse.wst.css.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.400.v201005261534"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.html.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.400.v201005261534"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.web"
+         download-size="0"
+         install-size="0"
+         version="1.1.400.v201005270700"
+         unpack="false"/>
+
+</feature>
